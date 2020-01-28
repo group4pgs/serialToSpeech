@@ -21,7 +21,7 @@ def serialObtain():
 		except:
         	pass
 
-while True:
+def readSerial():
 	time.sleep(1)
 	sayIt(serialObtain)
 	
